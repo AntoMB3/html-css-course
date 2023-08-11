@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Request Ride</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <style>
+            p{
+                font-family: "Montserrat",sans-serif;
+                font-weight: bold;
+                font-size: 24px;
+                margin-bottom: 12px;
+            }
+            .pickup-location, .destination-location{
+                display: block;
+                margin-bottom: 6px;
+                padding-right: 120px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                background-color: rgba(252, 211, 246, 0.7);
+                border: none;
+            }
+            .pickup-location::placeholder, .destination-location::placeholder{
+                font-size: 12px;
+                padding-left: 10px;
+            }
+            button{
+                margin-top: 20px;
+            }
+            .request-button{
+                background-color: black;
+                color: white;
+                border: none;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 12px;
+                padding-right: 12px;
+                font-size: 12px;
+                font-family: 'Montserrat',sans-serif;
+                outline: 2px solid transparent;
+                outline: none;
+            
+            }
+            .shedule-button{
+                background-color: rgb(214, 212, 212);
+                color: black;
+                border: none;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 12px;
+                padding-right: 12px;
+                font-size: 12px;
+                font-family: 'Montserrat',sans-serif;
+                margin-left: 8px;
+            }
+        </style>
+    </head>
+    <body>
+        <p>
+            Request Ride Now
+        </p>
+        <input type="text" placeholder="Enter pickup location" class = "pickup-location">
+        <input type = "text" placeholder="Enter destination" class = "destination-location">
+        <button class = "request-button">
+            Request now
+        </button>
+        <button class = "shedule-button">
+            Shedule for later
+        </button>
+    </body>
+</html>

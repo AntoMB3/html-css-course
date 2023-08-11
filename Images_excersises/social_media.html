@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <title>Example facebook</title>
+        <style>
+            p {
+                margin-top: 5px;
+                margin-bottom: 0px;
+                margin-left: 5px;
+                font-family: Arial;
+            }
+            .tweet{
+                border-width: 15px;
+                border: solid;
+                border-color: black;
+                border: none;
+                border-radius: 6px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+                width: 500px;
+                height: 80px;
+                margin-left: 10px;
+                margin-top: 25px;
+                display: flex;
+                align-items: center;
+            }
+            .profile-picture{
+                width: 60px;
+                height: 60px;
+                object-fit: cover;
+                object-position: 0px -10px;
+                margin-left: 20px;
+                vertical-align: center;
+                border-radius: 100px;
+                display: inline-block;
+            }
+            .text{
+                display: inline-block;
+                margin-left: 20px;
+                font-size: 20px;
+                font-family: 'Montserrat', sans-serif;
+                color: gray;
+            }
+            .tweet-button{
+                background-color: rgb(29,161,242);
+                border: none;
+                margin-left: 105px;
+                padding-left: 16px;
+                padding-right: 16px;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                color: white;
+                font-family: Arial;
+                font-weight: bold;
+                border-radius: 20px;
+            }
+            .profile{
+                margin-top: 100px;
+                margin-left: 15px;
+                box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+                width: 180px;
+                height: 300px;
+                display: inline-block;
+            }
+            .pp-img{
+                width: 180px;
+                height: 200px;
+                object-fit: cover;
+            }
+            .name{
+                font-weight: bold;
+                font-size: 18px;
+            }
+            .mutual-friends{
+                font-size: 16px;
+                color: gray;
+                margin-bottom: 7px;
+            }
+            .add-friend{
+                background-color: rgb(25, 132, 199);
+                border: none;
+                margin-left: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                font-family: Arial;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "tweet">
+            <img src="me.jpg" class = "profile-picture">
+            <p class = "text">
+                Whats happening?
+            </p>
+            <button class = "tweet-button">
+                Tweet
+            </button>
+        </div>
+        <div class = "profile">
+            <img src = "me.jpg" class = "pp-img">
+            <p class = "name">
+                Anto
+            </p>
+            <p class = "mutual-friends">
+                3 mutual friends
+            </p>
+            <button class = "add-friend">
+                Add friend
+            </button>
+        </div>
+
+        <div class = "profile">
+            <img src = "puppies.jpg" class = "pp-img">
+            <p class = "name">
+                Anny & Kyra
+            </p>
+            <p class = "mutual-friends">
+                2 mutual friends
+            </p>
+            <button class = "add-friend">
+                Add friend
+            </button>
+        </div>
+
+        <div class = "profile">
+            <img src = "flowers.jpg" class = "pp-img">
+            <p class = "name">
+                María
+            </p>
+            <p class = "mutual-friends">
+                &nbsp;
+            </p>
+            <button class = "add-friend">
+                Add friend
+            </button>
+        </div>
+
+    </body>
+</html>
