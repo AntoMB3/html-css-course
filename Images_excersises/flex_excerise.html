@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Flex Practice
+    </title>
+    <style>
+        .container {
+            width: 300px;
+            height: 115px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgba(0, 0, 0, 0.4);
+            border-radius: 10px;
+        }
+
+        .row-info {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .text{
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 15px;
+            margin-top: 10px;
+        }
+        .number{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            margin-right: 15px;
+            margin-top: 10px;
+
+            background-color: rgb(45, 96, 236);
+            color: white;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row-info">
+
+            <div class="text">
+                Home
+            </div>
+            <div class="number">
+                14
+            </div>
+
+        </div>
+
+        <div class="row-info">
+
+            <div class="text">
+                Notifications
+            </div>
+            <div class="number">
+                3
+            </div>
+
+        </div>
+
+        <div class="row-info">
+
+            <div class="text">
+                Messages
+            </div>
+            <div class="number">
+                5
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
