@@ -3,10 +3,11 @@
     <head>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href = "css/header.css">
         <link rel="stylesheet" href = "css/style.css">
         <link rel="stylesheet" href = "css/videos.css">
+        <link rel="stylesheet" href = "css/sidebar.css">
         <title>
             Youtube Clone
         </title>
@@ -15,13 +16,52 @@
     <body>
         <div class = "header">
             <div class = "left-section">
-                left
+                <img class = hamburger_button src="images/icons/hamburger-menu.svg">
+                <img class = "youtube_logo" src = "images/icons/youtube-logo.svg">
             </div>
             <div class = "middle-section">
                 <input class = "search-bar" type="text" placeholder="Search">
+                <button class = "search">
+                    <img class = "search-button" src = "images/icons/search.svg">
+                    <p class="tooltip">Search</p>
+                </button>
+                <button class = "voice">
+                    <img class = "voice-button" src="images/icons/voice-search-icon.svg">
+                    <p class="tooltip">Voice</p>
+                </button>
             </div>
             <div class = "right-section">
-                right
+                <img class = "upload-button" src = "images/icons/upload.svg">
+                <img class = "youtube-apps" src = "images/icons/youtube-apps.svg">
+                <img class = "notifications" src = "images/icons/notifications.svg">
+                <img class = "profile-bar-picture" src="pp/1.jpg">
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="sidebar-link">
+                <img class="sidebar-image" src="images/icons/home.svg">
+                <p class="sidebar-text">Home</p>
+            </div>
+            <div class="sidebar-link">
+                <img class="sidebar-image" src="images/icons/explore.svg">
+                <p class="sidebar-text">Explore</p>
+            </div>
+            <div class="sidebar-link">
+                <img class="sidebar-image" src="images/icons/subscriptions.svg">
+                <p class="sidebar-text">Subscriptions</p>
+            </div>
+            <div class="sidebar-link">
+                <img class="sidebar-image" src="images/icons/library.svg">
+                <p class="sidebar-text">library</p>
+            </div>
+            <div class="sidebar-link">
+                <img class="sidebar-image" src="images/icons/originals.svg">
+                <p class="sidebar-text">originals</p>
+            </div>
+            <div class="sidebar-link">
+                <img class="sidebar-image" src="images/icons/youtube-music.svg">
+                <p class="sidebar-text">YT music</p>
             </div>
         </div>
        
@@ -31,6 +71,9 @@
             <div class = "video-preview">
                 <div class = "image-video">
                     <img class = "thumbnail" src="images/ninja_cat.png">
+                    <div class="video-duration">
+                        1:14:20
+                    </div>
                 </div>
                 
             
@@ -56,6 +99,9 @@
             <div class = "video-preview">
                 <div class = "image-video">
                     <img class = "thumbnail" src="images/perritos.jpg">
+                    <div class="video-duration">
+                        58:16
+                    </div>
                 </div>
                 
             
@@ -81,6 +127,9 @@
             <div class = "video-preview">
                 <div class = "image-video">
                     <img class = "thumbnail" src="images/ninja_cat.png">
+                    <div class="video-duration">
+                        1:14:20
+                    </div>
                 </div>
                 
             
@@ -106,6 +155,9 @@
             <div class = "video-preview">
                 <div class = "image-video">
                     <img class = "thumbnail" src="images/perritos.jpg">
+                    <div class="video-duration">
+                        58:16
+                    </div>
                 </div>
                 
             
@@ -131,6 +183,9 @@
             <div class = "video-preview">
                 <div class = "image-video">
                     <img class = "thumbnail" src="images/ninja_cat.png">
+                    <div class="video-duration">
+                        1:14:20
+                    </div>
                 </div>
                 
             
@@ -156,6 +211,9 @@
             <div class = "video-preview">
                 <div class = "image-video">
                     <img class = "thumbnail" src="images/perritos.jpg">
+                    <div class="video-duration">
+                        58:16
+                    </div>
                 </div>
                 
             
@@ -177,6 +235,260 @@
                     
                 </div>
             </div>
+
+            <div class = "video-preview">
+                <div class = "image-video">
+                    <img class = "thumbnail" src="images/ninja_cat.png">
+                    <div class="video-duration">
+                        1:14:20
+                    </div>
+                </div>
+                
+            
+                <div class = "video-info">
+                    <div class = "profile-picture">
+                        <img src="pp/1.jpg" class = "channel-picture">
+                    </div>
+                    <div class = "video-description">
+                        <p class = "video-title">
+                            <strong> Ninja - a full music video concentration</strong>
+                        </p>
+                        <p class = "video-author">
+                            Anto focus
+                        </p>
+                        <p class = "video-stats">
+                            1.2 M &#183; 2 months ago
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class = "video-preview">
+                <div class = "image-video">
+                    <img class = "thumbnail" src="images/perritos.jpg">
+                    <div class="video-duration">
+                        58:16
+                    </div>
+                </div>
+                
+            
+                <div class = "video-info">
+                    <div class = "profile-picture">
+                        <img src="pp/2.png" class = "channel-picture">
+                    </div>
+                    <div class = "video-description">
+                        <p class = "video-title">
+                            <strong>Art history explain with puppies</strong>
+                        </p>
+                        <p class = "video-author">
+                            Montse Art
+                        </p>
+                        <p class = "video-stats">
+                            3.5 M &#183; 8 months ago
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class = "video-preview">
+                <div class = "image-video">
+                    <img class = "thumbnail" src="images/ninja_cat.png">
+                    <div class="video-duration">
+                        1:14:20
+                    </div>
+                </div>
+                
+            
+                <div class = "video-info">
+                    <div class = "profile-picture">
+                        <img src="pp/1.jpg" class = "channel-picture">
+                    </div>
+                    <div class = "video-description">
+                        <p class = "video-title">
+                            <strong> Ninja - a full music video concentration</strong>
+                        </p>
+                        <p class = "video-author">
+                            Anto focus
+                        </p>
+                        <p class = "video-stats">
+                            1.2 M &#183; 2 months ago
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class = "video-preview">
+                <div class = "image-video">
+                    <img class = "thumbnail" src="images/perritos.jpg">
+                    <div class="video-duration">
+                        58:16
+                    </div>
+                </div>
+                
+            
+                <div class = "video-info">
+                    <div class = "profile-picture">
+                        <img src="pp/2.png" class = "channel-picture">
+                    </div>
+                    <div class = "video-description">
+                        <p class = "video-title">
+                            <strong>Art history explain with puppies</strong>
+                        </p>
+                        <p class = "video-author">
+                            Montse Art
+                        </p>
+                        <p class = "video-stats">
+                            3.5 M &#183; 8 months ago
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class = "video-preview">
+                <div class = "image-video">
+                    <img class = "thumbnail" src="images/ninja_cat.png">
+                    <div class="video-duration">
+                        1:14:20
+                    </div>
+                </div>
+                
+            
+                <div class = "video-info">
+                    <div class = "profile-picture">
+                        <img src="pp/1.jpg" class = "channel-picture">
+                    </div>
+                    <div class = "video-description">
+                        <p class = "video-title">
+                            <strong> Ninja - a full music video concentration</strong>
+                        </p>
+                        <p class = "video-author">
+                            Anto focus
+                        </p>
+                        <p class = "video-stats">
+                            1.2 M &#183; 2 months ago
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class = "video-preview">
+                <div class = "image-video">
+                    <img class = "thumbnail" src="images/perritos.jpg">
+                    <div class="video-duration">
+                        58:16
+                    </div>
+                </div>
+                
+            
+                <div class = "video-info">
+                    <div class = "profile-picture">
+                        <img src="pp/2.png" class = "channel-picture">
+                    </div>
+                    <div class = "video-description">
+                        <p class = "video-title">
+                            <strong>Art history explain with puppies</strong>
+                        </p>
+                        <p class = "video-author">
+                            Montse Art
+                        </p>
+                        <p class = "video-stats">
+                            3.5 M &#183; 8 months ago
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class = "video-preview">
+                <div class = "image-video">
+                    <img class = "thumbnail" src="images/ninja_cat.png">
+                    <div class="video-duration">
+                        1:14:20
+                    </div>
+                </div>
+                
+            
+                <div class = "video-info">
+                    <div class = "profile-picture">
+                        <img src="pp/1.jpg" class = "channel-picture">
+                    </div>
+                    <div class = "video-description">
+                        <p class = "video-title">
+                            <strong> Ninja - a full music video concentration</strong>
+                        </p>
+                        <p class = "video-author">
+                            Anto focus
+                        </p>
+                        <p class = "video-stats">
+                            1.2 M &#183; 2 months ago
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class = "video-preview">
+                <div class = "image-video">
+                    <img class = "thumbnail" src="images/perritos.jpg">
+                    <div class="video-duration">
+                        58:16
+                    </div>
+                </div>
+                
+            
+                <div class = "video-info">
+                    <div class = "profile-picture">
+                        <img src="pp/2.png" class = "channel-picture">
+                    </div>
+                    <div class = "video-description">
+                        <p class = "video-title">
+                            <strong>Art history explain with puppies</strong>
+                        </p>
+                        <p class = "video-author">
+                            Montse Art
+                        </p>
+                        <p class = "video-stats">
+                            3.5 M &#183; 8 months ago
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class = "video-preview">
+                <div class = "image-video">
+                    <img class = "thumbnail" src="images/perritos.jpg">
+                    <div class="video-duration">
+                        58:16
+                    </div>
+                </div>
+                
+            
+                <div class = "video-info">
+                    <div class = "profile-picture">
+                        <img src="pp/2.png" class = "channel-picture">
+                    </div>
+                    <div class = "video-description">
+                        <p class = "video-title">
+                            <strong>Art history explain with puppies</strong>
+                        </p>
+                        <p class = "video-author">
+                            Montse Art
+                        </p>
+                        <p class = "video-stats">
+                            3.5 M &#183; 8 months ago
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            
     </div>
 
         <div class = "video-preview">

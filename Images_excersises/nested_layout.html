@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Nested Layout
+        </title>
+        <style>
+            p{
+                font-family: Arial, Helvetica, sans-serif;
+                margin-bottom: 0px;
+                font-size: 14px;
+            }
+            .main_container
+            {
+                height: 300px;
+                width: 500px;
+                border-width: 1px;
+                border-color: transparent;
+                border-style: solid;
+                border-radius: 10px;
+                box-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+                display: flex;
+                flex-direction: column;
+            }
+            .up
+            {
+               height: 40px; 
+            }
+            .text_up
+            {
+                margin-left: 20px;
+                margin-top: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                color:gray ;
+            }
+            .down{
+                display: flex;
+                
+            }
+            .picture
+            {
+                display: flex;
+                align-items: center;
+                width: 100px;
+            }
+            .picture_profile
+            {
+                height: 60px;
+                width: 60px;
+                object-fit: cover;
+                border-radius: 100px;
+                margin-left: 20px;
+            }
+            .text_body
+            {
+                flex: 1;
+            }
+            .title
+            {
+                display: flex;
+                justify-content: space-between;
+            }
+            .email_title
+            {
+                font-weight: bold;
+                font-size: 18px;
+            }
+            .hour
+            {
+                color: gray;
+                margin-right: 15px;
+            }
+            .subtitle
+            {
+                margin-top: 5px;
+                font-weight: bold;
+            }
+            .email_body
+            {
+                margin-top: 2px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class = "main_container">
+            <div class = "up">
+                <p class = "text_up">
+                    ALL INBOXES
+                </p>
+            </div>
+            <div class = "down">
+                <div class = "picture">
+                    <img class = "picture_profile" src="puppies.jpg">
+                </div>
+                <div class = "text_body">
+                    <div class = "title">
+                        <p class = "email_title">
+                            PROMOCION 2x1
+                        </p>
+                        <p class ="hour">
+                            6:05 pm.
+                        </p>
+                    </div>
+                    <p class = "subtitle">
+                        Grandes ventas solo hoy!
+                    </p>
+                    <p class="email_body">
+                        Hola! Quieres probar nuestras nuevas promociones que...
+                    </p>
+                </div>
+            </div>
+
+            <div class = "down">
+                <div class = "picture">
+                    <img class = "picture_profile" src="puppies.jpg">
+                </div>
+                <div class = "text_body">
+                    <div class = "title">
+                        <p class = "email_title">
+                            PROMOCION 2x1
+                        </p>
+                        <p class ="hour">
+                            6:05 pm.
+                        </p>
+                    </div>
+                    <p class = "subtitle">
+                        Grandes ventas solo hoy!
+                    </p>
+                    <p class="email_body">
+                        Hola! Quieres probar nuestras nuevas promociones que...
+                    </p>
+                </div>
+            </div>
+
+            <div class = "down">
+                <div class = "picture">
+                    <img class = "picture_profile" src="puppies.jpg">
+                </div>
+                <div class = "text_body">
+                    <div class = "title">
+                        <p class = "email_title">
+                            PROMOCION 2x1
+                        </p>
+                        <p class ="hour">
+                            6:05 pm.
+                        </p>
+                    </div>
+                    <p class = "subtitle">
+                        Grandes ventas solo hoy!
+                    </p>
+                    <p class="email_body">
+                        Hola! Quieres probar nuestras nuevas promociones que...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

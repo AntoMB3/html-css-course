@@ -1,6 +1,6 @@
 .video-grids{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     column-gap: 15px;
     row-gap: 40px;
     width: 100px;
@@ -40,4 +40,22 @@
 .video-title, .video-author, .video-stats{
     margin-top: 1px;
     margin-bottom: 5px;
+}
+
+.image-video
+{
+    position: relative;
+}
+
+.video-duration
+{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    background-color: rgba(12, 12, 12, 0.8);
+    color:white;
+    padding: 5px;
+    width:55px;
+    text-align: center;
 }
